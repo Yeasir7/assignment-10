@@ -9,7 +9,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    // errorElement: <div>Oops! Something went wrong.</div>,
+    errorElement: <div>Oops! Something went wrong.</div>,
     children: [
       {
         path: "home",
