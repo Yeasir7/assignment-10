@@ -25,7 +25,7 @@ const AddSpot = () => {
 
     console.log(newTouristSpot);
 
-    fetch("http://localhost:5000/tourist-spots", {
+    fetch("https://epic-escapes-server-hmq23n7jh-yeasirs-projects.vercel.app/addSpot", {
       method: "POST",
       headers: {
         "content-type": "application/json",
